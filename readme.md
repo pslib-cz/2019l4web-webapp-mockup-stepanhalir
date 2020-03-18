@@ -38,12 +38,13 @@ V části hry jsou už skutečně hrací pole, mezi kterými může soutěžíc�
 
 Soutěžící se v této části dozví svůj výsledek i výsledek svého protihráče. Rovněž jsou mu nabídnuty otázky, na něž odpověděl chybně a správně odpovědi. 
 
-### Vzhled aplikace
+## Vzhled aplikace
 
+### Hra
 
-Herní políčka (hexagony) seskupená tak, aby vytvořily trojúhelník. 
+Herní políčka jsou tvořena hexagony a jsou seskupená tak, aby vytvořily trojúhelník. Mezi těmito políčky soutěžící volí. Pod každým polem je ukryta jedna otázka, na kterou ve chvíli, kdy je soutěžícím pole zvoleno, musí soutěžící odpovědět. Soutěžící volí pole kliknutím. 
 
-![AZkviz-hernipole](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/AZ-kv%C3%ADz_hern%C3%AD_pl%C3%A1n.svg/1024px-AZ-kv%C3%ADz_hern%C3%AD_pl%C3%A1n.svg.png)
+![AZkviz-hernipole](podklady/herni-pole/hra-soutezici.jpg)
 
 
 
