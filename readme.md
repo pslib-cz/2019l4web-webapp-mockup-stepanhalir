@@ -4,7 +4,7 @@ Jedná se o obdobu vědomostní a strategické soutěže, která je Českou tele
 
 ## Pravidla hry
 
-Soutěží proti sobě přesně **dva hráči**, kteří se vzájemně střídají ve svých tazích. Jejich úkolem je porazit svého protihráče tím, že za dobu jednoho herního kola správně odpoví na více položených otázek, a tím získají více bodů než jejich protivník. 
+Soutěží proti sobě přesně **dva hráči**, kteří se vzájemně střídají ve svých tazích. Jejich úkolem je porazit svého protihráče tím, že za dobu jednoho herního kola správně odpoví na více položených otázek, než jejich protivník. Po uplynutí času jednoho kola, bude počet bodů sečtený a za vítěze označen hráč s více body.
 
 - O tom, kdo začne hru v první kole začne, rozhoduje los.
 - Za správnou otázku je soutěžícímu přidělen jeden bod a zaplněno jedno herní pole s otázkou, na niž správně odpověděl. Toto pole není možné znovu vybrat jím ani protihráčem a odpovídat na otázku znovu.
