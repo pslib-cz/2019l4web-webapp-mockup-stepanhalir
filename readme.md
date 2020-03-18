@@ -14,7 +14,35 @@ Soutěží proti sobě přesně **dva hráči**, kteří se vzájemně střídaj
 - Za správnou otázku je soutěžícímu přidělen jeden bod a zaplněno jedno herní pole s otázkou, na niž správně odpověděl. Toto pole není možné znovu vybrat jím ani protihráčem a odpovídat na otázku znovu. 
 - Pakliže soutěžící po vybrání pole odpoví na otázku chybně, možnost odpovědi bude nabídnuta jeho protihráči. Pokud protihráč odpoví správně, tak získá pole i přidělený bod pro sebe, v opačném případě (chybná odpověď) ani on pole nezíská. Pole se tak stane neaktivním a není již možné se k němu vracet. 
 
+## Struktura
+
+Struktura hry bude následující:
+- uvítání
+- výběr obtížnosti
+- hra
+- vyhodnocení
+
+### Uvítací (uvodní) stránka
+
+Jedná se o stránku, která bude zobrazena ve chvíli příchodu návštěvníka do webové aplikace. Návštěvník potvrdí vstup do této hry a je přesměrován na výběr obtížnosti.
+
+### Výběr obtížnosti
+
+V této části návštěvník volí obtížnost hry. Na výběr jsou **3 obtížnosti – jednoduchá, střední, obtížná**. Každá obtížnost se liší náročností odpovědí na otázky. V jednoduché variantě hry jsou soutěžícímu předkládány jednoduché otázky, hra je tak určena i pro **mladší návštěvníky i dětské publikum**. Střední náročnost poté odpovídá jakési běžné obtížnosti. Varianta obtížné hry je svými otázkami mířena na zkušenější soutěžící, kterým předkládá záludné a náročné otázky.
+
+### Hra
+
+V části hry jsou už skutečně hrací pole, mezi kterými může soutěžící volit. Během hry soutěžící vidí, jaký je jeho zbývající čas do konce kola, odpovědi na otázku i jeho aktuální bodový stav.
+
+### Vyhodnocení 
+
+Soutěžící se v této části dozví svůj výsledek i výsledek svého protihráče. Rovněž jsou mu nabídnuty otázky, na něž odpověděl chybně a správně odpovědi. 
+
+### Vzhled aplikace
+
+
 Herní políčka (hexagony) seskupená tak, aby vytvořily trojúhelník. 
+
 ![AZkviz-hernipole](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/AZ-kv%C3%ADz_hern%C3%AD_pl%C3%A1n.svg/1024px-AZ-kv%C3%ADz_hern%C3%AD_pl%C3%A1n.svg.png)
 
 
