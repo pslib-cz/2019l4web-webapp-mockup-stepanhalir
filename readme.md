@@ -4,10 +4,13 @@ Jedná se o obdobu vědomostní a strategické soutěže, která je Českou tele
 
 ## Pravidla hry
 
-Soutěží proti sobě přesně **dva hráči**, kteří se vzájemně střídají ve svých tazích. Jejich úkolem je porazit svého protihráče tím, že za dobu jednoho herního kola správně odpoví na více položených otázek, než jejich protivník. Po uplynutí času jednoho kola, bude počet bodů sečtený a za vítěze označen hráč s více body.
+Soutěží proti sobě přesně **dva hráči**, kteří se vzájemně střídají ve svých tazích. Jejich úkolem je porazit svého protihráče tím, že za dobu jednoho herního kola správně odpoví na více položených otázek, než jejich protivník. Po uplynutí času jednoho kola bude počet bodů sečtený a za vítěze označen hráč s více body.
 
 - O tom, kdo začne hru v první kole začne, rozhoduje los.
-- Za správnou otázku je soutěžícímu přidělen jeden bod a zaplněno jedno herní pole s otázkou, na niž správně odpověděl. Toto pole není možné znovu vybrat jím ani protihráčem a odpovídat na otázku znovu.
+- Jako herní doba jednoho kola byl stanoven čas **2 minuty 30 vteřin**.
+- Ve chvíli, kdy je soutěžícímu sdělena otázka, má **30 vteřin na její odpověd**. Pokud neodpoví, je to považováno jako odpověď chybná. 
+- Za správnou otázku je soutěžícímu přidělen jeden bod a zaplněno jedno herní pole s otázkou, na niž správně odpověděl. Toto pole není možné znovu vybrat jím ani protihráčem a odpovídat na otázku znovu. 
+- Pakliže soutěžící po vybrání pole odpoví na otázku chybně, možnost odpovědi bude nabídnuta jeho protihráči. Pokud protihráč odpoví správně, tak získá pole i přidělený bod pro sebe, v opačném případě (chybná odpověď) ani on pole nezíská. Pole se tak stane neaktivním a není již možné se k němu vracet. 
 
 
 ## Účel hry
