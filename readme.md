@@ -46,6 +46,7 @@ Herní políčka jsou tvořena hexagony a jsou seskupená tak, aby vytvořily tr
 
 ![AZkviz-hernipole](podklady/herni-pole/hra-soutezici.jpg)
 
+Lososová barva (#f67575) zde představuje **hráče 1** s celkem sedmi správnými odpověďmi. Skóre **hráče 2**, který má svá úspěšná pole zabarvená zelenou barvou (#1eb2a6), je 6. Nachází se zde i jedna odpoveď (#212120), na niž ani jedním účastníkem nebylo odpovězeno správně. Pakliže by bylo herní kolo ukončeno a měly být vyhodnoceny výsledky, vítězem by byl hráč 1.
 
 
 
