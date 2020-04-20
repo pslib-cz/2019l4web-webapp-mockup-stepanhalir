@@ -30,7 +30,9 @@ Jedná se o stránku, která bude zobrazena ve chvíli příchodu návštěvník
 
 ### Výběr obtížnosti
 
-V této části návštěvník volí obtížnost hry. Na výběr jsou **3 obtížnosti – jednoduchá, střední, obtížná**. Každá obtížnost se liší náročností odpovědí na otázky. V jednoduché variantě hry jsou soutěžícímu předkládány jednoduché otázky, hra je tak určena i pro **mladší návštěvníky i dětské publikum**. Střední náročnost poté odpovídá jakési běžné obtížnosti. Varianta obtížné hry je svými otázkami mířena na zkušenější soutěžící, kterým předkládá záludné a náročné otázky.
+V této části návštěvník volí obtížnost hry. Na výběr jsou **3 obtížnosti – jednoduchá, normální, obtížná**. Každá obtížnost se liší náročností odpovědí na otázky. V jednoduché variantě hry jsou soutěžícímu předkládány jednoduché otázky, hra je tak určena i pro **mladší návštěvníky i dětské publikum**. Střední náročnost poté odpovídá jakési běžné obtížnosti. Varianta obtížné hry je svými otázkami mířena na zkušenější soutěžící, kterým předkládá záludné a náročné otázky.
+
+![AZkviz-obtiznost](podklady/dif_page.jpg)
 
 ### Hra
 
