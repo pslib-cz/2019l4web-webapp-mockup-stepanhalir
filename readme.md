@@ -24,7 +24,9 @@ Struktura hry bude následující:
 
 ### Uvítací (uvodní) stránka
 
-Jedná se o stránku, která bude zobrazena ve chvíli příchodu návštěvníka do webové aplikace. Návštěvník potvrdí vstup do této hry a je přesměrován na výběr obtížnosti.
+Jedná se o stránku, která bude zobrazena ve chvíli příchodu návštěvníka do webové aplikace. Návštěvník potvrdí vstup do této hry a je přesměrován na výběr obtížnosti. 
+
+![AZkviz-landing_page](podklady/landing_page.jpg)
 
 ### Výběr obtížnosti
 
