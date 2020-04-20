@@ -2,6 +2,11 @@
 
 Jedná se o obdobu vědomostní a strategické soutěže, která je Českou televizí vysílána na televizních obrazovkách od roku 1997. Skrze web České televize si je možné tuto hru v jednodušším provedení zahrát – [zahrajte si AZ KVÍZ](https://www.ceskatelevize.cz/porady/1097147804-az-kviz/3044-zahrajte-si/).
 
+### Demo
+
+Vyzkoušejte demo aplikace – [zahrajte si](https://htmlpreview.github.io/?https://github.com/pslib-cz/2019l4web-webapp-mockup-stepanhalir/blob/master/index.html).
+
+
 ## Účel hry
 
 Soutěží proti sobě přesně **dva hráči**, kteří se vzájemně střídají ve svých tazích. Jejich úkolem je porazit svého protihráče tím, že za dobu jednoho herního kola správně odpoví na více položených otázek, než jejich protivník. Po uplynutí času jednoho kola bude počet bodů sečtený a za vítěze označen hráč s více body.
