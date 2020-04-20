@@ -1,0 +1,337 @@
+/* CSS dokument */
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+/* header */
+body > header {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    position: relative; 
+    height: 30px; 
+    line-height: 30px; 
+    overflow: hidden;
+    padding: 1.4rem; 
+    background-color: #212120; 
+}
+
+body > header h1 { 
+    font-size: 2.4rem; 
+    color: #fff; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+body > header nav {
+    position: absolute; 
+    right: 10%;
+}
+
+body > header a {
+    text-decoration: none; 
+}
+
+body > header nav a {
+    text-decoration: none; 
+    color:#fff; 
+    text-transform: lowercase; 
+    font-size: 1rem; 
+    margin-right: 2rem; 
+} 
+
+body > header nav a:hover {
+    text-decoration: underline; 
+    transition: ease-in-out 2s; 
+    transition-delay: 10s; 
+}
+
+.panel {
+    width: 100%; 
+    position: relative;
+    max-height: 500px;
+}
+
+.info {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+    align-items: center; 
+    overflow: hidden;
+    height: 20px; 
+    padding: 0.4rem; 
+    width: 10%;
+    padding-left: 1rem; 
+    background: #1eb2a6; /*f67575 */
+    animation: infomovin 270s linear;
+}
+
+@keyframes infomovin {
+    from { width: 0%; }
+    to { width: 100%; }
+}
+
+.info p {
+    min-width: 140px;
+    font-size: 0.8rem;
+}
+
+.info span { 
+    min-width: 150px; 
+    padding-left: 0.5rem; 
+}
+
+.info p, .info span {
+    color: #fff; 
+}
+
+/* Game */
+  /* Player 1 */
+  .player-1 {
+    background: #f67575 !important;
+    border: 2px solid #f67575 !important;  
+    }
+  .player-1:before {
+    background: #fff !important;
+  }
+  .player-1:after {
+    background: #f67575 !important;
+  }
+  /* Player-2 */
+  .player-2 {
+    background: #1eb2a6 !important; 
+    border: 2px solid #1eb2a6 !important; 
+    }
+  .player-2:before {
+    background: #fff !important;
+  }
+  .player-2:after {
+    background: #1eb2a6 !important;
+  }
+
+.game-panel {
+    position: relative; 
+    padding-top: 5vh; 
+    float: left; 
+    width: 50vw;
+    max-height: inherit;
+}
+
+.row {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+    justify-content: center;
+    width: 100%; 
+    height: calc(500px / 7.5); 
+}
+
+.row .hexagon {
+    position: relative;
+    
+    height: calc(calc(500px / 8) + 25px);
+    width: 90px;
+    cursor: pointer; 
+}
+
+ .hexagon:before, .hexagon:after {
+    position: absolute;
+    content: '';
+}
+
+ .hexagon:before {
+    top: 4px;  /* border width */
+    left: 4px;  /* border width */
+    height: calc(100% - 8px);  /* 100% - (2 * border width) */
+    width: calc(100% - 8px);  /* 100% - (2 * border width) */
+    background: #212120;
+}
+
+.hexagon:after {
+    top: 8px;
+    left: 8px;
+    height: calc(100% - 16px);
+    width: calc(100% - 16px);
+    background: #fff;
+}
+
+.row .hexagon span {
+    position: absolute; 
+    bottom: 50%; 
+    right: 50%; 
+    transform: translate(50%, 50%); 
+    font-size: 1.2rem; 
+    color: #212120; 
+    font-family: 'Roboto', sans-serif;
+    z-index: 20;
+}
+
+/* hover hex */
+.hexagon:hover {
+    background: #1eb2a6; /*212120*/
+}
+.hexagon:hover:before {
+    background: #fff; /*212120*/
+}
+.hexagon:hover:after {
+    background: #1eb2a6; /*cee9f3*/
+  }
+
+/* offchoose */
+.offchoose {
+    background: #212120; 
+}
+
+.offchoose:before {
+    background: #212120; 
+}
+
+  .offchoose:after {
+    background: #212120; 
+}
+
+.hexagon, .hexagon:before, .hexagon:after {
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+ 
+/* Status */
+.status-panel {
+    padding-top: 5vh;
+    margin-left: 5vw;
+    width: 40vw;
+    float: left; 
+    height: 100%;
+}
+
+.status-panel .row {
+    height: 80px; 
+    margin-bottom: 4rem; 
+}
+
+.status-panel #select {
+    background: #1eb2a6; 
+}
+
+.status-panel #select:after {
+    background: #1eb2a6; 
+}
+
+.status-panel #select:before {
+    background: #fff; 
+}
+
+.status-panel #question {
+    font-size: 1.2rem; 
+    color: #212120; 
+}
+
+.status-panel #answer {
+    font-size: 1.2rem; 
+    color: #212120; 
+    margin-top: 4rem; 
+}
+
+/* Input */
+.status-panel form {
+    position: relative; 
+    width: 100%; 
+    margin-top: 2rem; 
+}
+
+.status-panel label {
+    font-size: 0.9rem; 
+}
+
+.status-panel input[type=text] {
+    width: 100%; 
+    border: 2px solid #1eb2a6; /*c9c9c9*/
+    font-size: 1rem; 
+}
+
+.status-panel form input {
+    display: block; 
+    padding: 1rem;  
+    box-sizing: border-box; 
+    margin-bottom: 1rem;  
+}
+
+.status-panel input[type=submit] {
+    width: 100%; 
+    border: 2px solid #1eb2a6; 
+    background: #1eb2a6; 
+    text-transform: lowercase; 
+    font-size: 1.4rem; 
+    color: #fff; 
+}
+
+.status-panel input[type=submit]:hover {
+    border: 2px solid #212120 !important; 
+    background: #212120 !important; 
+    color: #fff; 
+}
+
+
+@media only screen and (max-width: 1024px) /*1335*/ {
+    .panel {
+        flex-direction: column; 
+    } 
+    .game-panel, .status-panel {
+        width: 100%; 
+    }
+    .status-panel {
+        padding: 1rem; 
+        margin-top: 8rem; 
+        box-sizing: border-box; 
+    }
+}
+
+@media only screen and (max-width: 625px) {
+
+    .game-panel .row {
+        	height: 50px;
+    } 
+    .status-panel {
+        margin-left: 0; 
+    }
+    .row .hexagon {
+        height: 60px;
+        width: 60px;
+    }
+    .row .hexagon span {
+        position: absolute; 
+        bottom: 50%; 
+        right: 50%; 
+        transform: translate(50%, 50%); 
+        font-size: 0.8rem; 
+    }
+    body > header nav a {
+        font-size: 1rem; 
+        margin-right: 0.5rem; 
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .game-panel .row {
+        height: 40px;
+    } 
+    .row .hexagon {
+        height: 50px;
+        width: 50px;
+    }
+    .status-panel {
+        margin-top: 4rem;
+    }
+    .status-panel .row {
+        margin-bottom: 1rem; 
+    }
+    .status-panel .row .hexagon {
+        height: 80px; 
+        width: 80px; 
+    }
+    .status-panel .row .hexagon span {
+        font-size: 1.5rem; 
+    }
+}
