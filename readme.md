@@ -34,6 +34,14 @@ V této části návštěvník volí obtížnost hry. Na výběr jsou **3 obtí�
 
 V části hry jsou už skutečně hrací pole, mezi kterými může soutěžící volit. Během hry soutěžící vidí, jaký je jeho zbývající čas do konce kola, odpovědi na otázku i jeho aktuální bodový stav.
 
+#### Hráč 1
+
+![AZkviz-player-1](podklady/herni-pole/player-1_design.jpg)
+
+#### Hráč 2
+
+![AZkviz-player-2](podklady/herni-pole/player-2_design.jpg)
+
 ### Vyhodnocení 
 
 Soutěžící se v této části dozví svůj výsledek i výsledek svého protihráče. Rovněž jsou mu nabídnuty otázky, na něž odpověděl chybně a správně odpovědi. 
