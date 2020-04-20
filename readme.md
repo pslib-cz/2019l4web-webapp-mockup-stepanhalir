@@ -36,11 +36,11 @@ V části hry jsou už skutečně hrací pole, mezi kterými může soutěžíc�
 
 #### Hráč 1
 
-![AZkviz-player-1](podklady/herni-pole/player-1_design.jpg)
+![AZkviz-player-1](podklady/player-1_design.jpg)
 
 #### Hráč 2
 
-![AZkviz-player-2](podklady/herni-pole/player-2_design.jpg)
+![AZkviz-player-2](podklady/player-2_design.jpg)
 
 ### Vyhodnocení 
 
