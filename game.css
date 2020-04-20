@@ -5,6 +5,51 @@
     font-family: 'Roboto', sans-serif; 
 }
 
+/* LANDING page */
+section.uvod {
+    width: 100%; 
+    height: 80vh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.uvod header h1, .uvod header .big {
+    font-size: 7rem; 
+    text-align: center; 
+}
+
+.uvod header h2 {
+    font-size: 2rem; 
+    text-align: center; 
+}
+
+.uvod section {
+    margin-top: 10%; 
+}
+
+.uvod section.volby {
+    margin-top: 5%; 
+}
+
+.uvod section a {
+    display: block; 
+    text-decoration: none; 
+    font-size: 1.4rem; 
+    color: #fff; 
+    text-align: center; 
+    background: #1eb2a6;
+    margin-top: 0.5rem; 
+    padding: 1rem; 
+    width: 30vw; 
+}
+
+.uvod section a:hover {
+    background: #212120;
+}
+
+/* MAIN – herni strana */
 /* header */
 body > header {
     display: flex; 
@@ -310,6 +355,26 @@ body > header nav a:hover {
     body > header nav a {
         font-size: 1rem; 
         margin-right: 0.5rem; 
+    }
+    body > header nav {
+        display: none; 
+    }
+    .uvod header .big {
+        font-size: 4rem; 
+    }
+    .uvod header h2 {
+        font-size: 1.5rem; 
+    }
+    .uvod .volby a {
+        width: 80vw; 
+        font-size: 1.4rem; 
+    }
+    article.uvod section a {
+        position: absolute; 
+        width: 91%; 
+        overflow: hidden;
+        bottom: 0; 
+        left: 0;
     }
 }
 

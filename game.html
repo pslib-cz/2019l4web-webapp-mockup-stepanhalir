@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="game.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        <title>AZ kvíz</title>
+    </head>
+    <body>
+        <header>
+            <a href="#"><h1>AZ kvíz</h1></a>
+            <nav>
+                <a href="#">O hře</a>
+                <a href="#">Moje skóre</a>
+                <a href="#">Nastavení</a>
+            </nav>       
+        </header>
+        <div class="info player-2">
+            <p>Do konce kola zbývá:</p><span id="time">3 minuty 20 vteřin</span>
+        </div>
+        <section class="panel">
+            <div class="game-panel">
+                <div class="row">
+                    <div class="hexagon player-1"><span>1</span></div>
+                </div>
+                <div class="row">
+                    <div class="hexagon player-1"><span>2</span></div>
+                    <div class="hexagon"><span>3</span></div>
+                </div>
+                <div class="row">
+                    <div class="hexagon"><span>4</span></div>
+                    <div class="hexagon player-1"><span>5</span></div>
+                    <div class="hexagon"><span>6</span></div>
+                </div>
+                <div class="row">
+                    <div class="hexagon offchoose"><span>7</span></div>
+                    <div class="hexagon player-1"><span>8</span></div>
+                    <div class="hexagon player-2"><span>9</span></div>
+                    <div class="hexagon"><span>10</span></div>
+                </div>
+                <div class="row">
+                    <div class="hexagon"><span>11</span></div>
+                    <div class="hexagon player-2"><span>12</span></div>
+                    <div class="hexagon player-1"><span>13</span></div>
+                    <div class="hexagon player-1"><span>14</span></div>
+                    <div class="hexagon"><span>15</span></div>
+                </div>
+                <div class="row">
+                    <div class="hexagon"><span>16</span></div>
+                    <div class="hexagon"><span>17</span></div>
+                    <div class="hexagon player-2"><span>18</span></div>
+                    <div class="hexagon player-2"><span>19</span></div>
+                    <div class="hexagon"><span>20</span></div>
+                    <div class="hexagon"><span>21</span></div>
+                </div>
+                <div class="row">
+                    <div class="hexagon"><span>22</span></div>
+                    <div class="hexagon"><span>23</span></div>
+                    <div class="hexagon"><span>24</span></div>
+                    <div class="hexagon player-2"><span>25</span></div>
+                    <div class="hexagon player-1"><span>26</span></div>
+                    <div class="hexagon player-2"><span>27</span></div>
+                    <div class="hexagon"><span>28</span></div>
+                </div>
+            </div>
+            <div class="status-panel">
+                <header>
+                    <div class="row">
+                        <div class="hexagon player-2" id="select"><span>30</span></div>
+                    </div>
+                </header>  
+                <section>
+                    <p id="question">V Malé Fatře zaujme turisty část tvořená hlubokými roklemi, jimiž protékají divoké bystřiny 
+                        s řadou vodopádů. V názvu této soustavy kaňonů zaznívá jméno slovenského lidového hrdiny. 
+                        Jak se toto romantické místo nazývá? 
+                    </p>
+                    <form>
+                        <label for="#">Odpověď</label>
+                        <input type="text" style="background: #fff !important;" class="player-2">
+                        <input type="submit" class="player-2">
+                    </form>
+                    <!--
+                    <p id="answer">Jánošíkové diery</p> 
+                    -->
+                </section>
+            </div>
+        </section>
+    </body>
+</html>
+
